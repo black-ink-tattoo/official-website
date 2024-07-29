@@ -4,6 +4,7 @@
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Content-Language" content="it-IT">
+	<meta name="google" value="notranslate">
 	<meta name="owner" content="Alberto Marangelo">
 	<meta name="author" content="Pixo systems - Alberto Marà" />
 	<meta name="creation_date" content="08/06/2011">
@@ -13,7 +14,7 @@
 	<meta name="robots" content="index, follow" />
 	<meta name="robots" content="all">
 	<meta name="revisit-after" content="60 days">
-	<title>BLACK INK TATTOO</title>
+	<title>BLACK INK TATOO</title>
 
 				<!--ICON set-->
 				<link rel="icon" href="favicon.ico" type="image/x-icon"/>
@@ -45,26 +46,41 @@
 		</div>
 
 		<div id="corpo">
-			<div class="gabbia_trovaci">
-				<div class="left_trovaci">
-					<p class="ww_georgia_bold">
-					Siamo in via:<br />
-					Via Caserta, 89<br />
-					Bellizzi (SA) 84092
-					</p>
-				</div>
-				<div class="right_trovaci">
-					<p class="ww_georgia_bold"	 style="padding:10px 0 0 135px;">
-					Puoi chiamare al:<br />
-					Cell. 333 3075794</p>
-                                    <p class="ww_georgia_bold"	 style="padding:10px 0 0 135px;"><a href="../mod_contattaci/mod_contattaci.php">Contattaci via mail</a></p>
-				</div>
-				<div class="g_maps">
-					
-					<iframe class="g_maps" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.it/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=Via+Caserta+Bellizzi+(SA)+84092&amp;aq=&amp;sll=41.442726,12.392578&amp;sspn=19.967293,39.506836&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=Via+Caserta,+84092+Bellizzi+Salerno,+Campania&amp;t=h&amp;z=14&amp;ll=40.621746,14.956808&amp;output=embed">
-					</iframe>
-										
-				</div>				
+			<div class="gabbia_contattaci">
+<?php
+$indice_attuale = 0;
+if( !empty($_GET['index']) ){
+    $indice_attuale = $_GET['index'];
+}
+$path = 'img/disegni/';
+$dh = opendir($path);
+$index=0;
+$immagine = 'img/gallery/nophoto.jpg';
+while( ($file = readdir($dh)) !== false ){
+    if( is_file($path.$file) && ($index==$indice_attuale) ){
+        $immagine = $path.$file;
+    }
+    if(is_dir($path.$file)){
+        continue;
+    }
+    $index++;
+}
+$immagine = urlencode($immagine);
+echo "<img class=\"photo\" title=\"photonow\" src=\"immagine.php?file=$immagine\" />";
+
+
+$prev_index= $indice_attuale-1;
+if($prev_index<0){ $prev_index=0;}
+$next_index=$indice_attuale+1;
+if($next_index>=$index){ $next_index=$indice_attuale; }
+?>
+				<!-- <img class="photo" title="photonow" src="img/photo/nophoto.jpg" /> --> <!--foto tatuaggio/altro-->
+				
+				<a href="<?php echo "{$_SERVER['PHP_SELF']}?index=$prev_index"; ?>"><img class="leftarrow" alt="left" title="left_arrow"
+				src="img/gallery/arrowL.png"  /></a>
+				<a href="<?php echo "{$_SERVER['PHP_SELF']}?index=$next_index"; ?>"><img class="rightarrow" alt="left" title="right_arrow"
+				src="img/gallery/arrowR.png"   /></a>
+
 			</div>	
 		</div>
 

@@ -14,7 +14,7 @@
 	<meta name="robots" content="index, follow" />
 	<meta name="robots" content="all">
 	<meta name="revisit-after" content="60 days">
-	<title>BLACK INK TATOO</title>
+	<title>BLACK INK TATTOO</title>
 
 				<!--ICON set-->
 				<link rel="icon" href="favicon.ico" type="image/x-icon"/>
@@ -46,14 +46,10 @@
 		</div>
 
 		<div id="corpo">
-			<div class="gabbia_contattaci">
+			<div class="gabbia_gallery">
 
-				<img class="photo" title="photonow" src="img/photo/nophoto.jpg" /><!--foto tatuaggio/altro-->
-				
-				<a href="#"><img class="leftarrow" alt="left" title="left_arrow"
-				src="img/gallery/arrowL.png"  /></a>
-				<a href="#"><img class="rightarrow" alt="left" title="right_arrow" 
-				src="img/gallery/arrowR.png"   /></a>
+                            <a href="mod_gallery_photo.php"><img src="img/gallery/img_foto.jpg"/></a>
+                            <a href="mod_gallery_disegni.php"><img src="img/gallery/img_disegni.jpg"/></a>
 
 			</div>	
 		</div>
