@@ -75,6 +75,16 @@
 	width:								775px;
 	background:							url(../img/pagebackground/blacktatoo_3.jpg) no-repeat top center;
 	text-align:							left;	
+}	.gabbia_gallery{
+	height:								396px;
+	width:								775px;
+	background:							url(../img/pagebackground/blacktatoo_Gselect.jpg) no-repeat top center;
+	text-align:							left;	
+}	.gabbia_elettrod{
+	height:								396px;
+	width:								775px;
+	background:							url(../img/pagebackground/blacktatoo_4.jpg) no-repeat top center;
+	text-align:							left;	
 }
 
 #fondo{
@@ -82,7 +92,6 @@
 	width:								100%;
 	padding:							0;
 	margin:								-30px auto 0 auto;
-	background:							url(../img/background_fondo.jpg) repeat-x top center; 
 }	
 
 .contatto{

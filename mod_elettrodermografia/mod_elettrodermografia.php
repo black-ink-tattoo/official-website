@@ -4,6 +4,7 @@
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Content-Language" content="it-IT">
+	<meta name="google" value="notranslate">
 	<meta name="owner" content="Alberto Marangelo">
 	<meta name="author" content="Pixo systems - Alberto Marà" />
 	<meta name="creation_date" content="08/06/2011">
@@ -45,26 +46,16 @@
 		</div>
 
 		<div id="corpo">
-			<div class="gabbia_trovaci">
-				<div class="left_trovaci">
-					<p class="ww_georgia_bold">
-					Siamo in via:<br />
-					Via Caserta, 89<br />
-					Bellizzi (SA) 84092
-					</p>
-				</div>
-				<div class="right_trovaci">
-					<p class="ww_georgia_bold"	 style="padding:10px 0 0 135px;">
-					Puoi chiamare al:<br />
-					Cell. 333 3075794</p>
-                                    <p class="ww_georgia_bold"	 style="padding:10px 0 0 135px;"><a href="../mod_contattaci/mod_contattaci.php">Contattaci via mail</a></p>
-				</div>
-				<div class="g_maps">
-					
-					<iframe class="g_maps" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.it/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=Via+Caserta+Bellizzi+(SA)+84092&amp;aq=&amp;sll=41.442726,12.392578&amp;sspn=19.967293,39.506836&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=Via+Caserta,+84092+Bellizzi+Salerno,+Campania&amp;t=h&amp;z=14&amp;ll=40.621746,14.956808&amp;output=embed">
-					</iframe>
-										
-				</div>				
+			<div class="gabbia_elettrod">
+				<p class="ww_georgia_bold" style="padding:220px 0 0 140px; position:relative;">
+				Grande innovazione nel mondo dei tatuaggi!<br />
+				Grazie all'elettrodermografo le coperture<br />
+				non sono più un problema! Basta coprirsi i vecchi<br />
+				tattoo con delle "macchie nere" ...da oggi il tuo<br />
+				vecchio tatuaggio sarà solo un brutto ricordo!<br />
+				Anche le scarificazioni non sono mai state così<br />
+				precise e poco invasive!
+				</p>
 			</div>	
 		</div>
 

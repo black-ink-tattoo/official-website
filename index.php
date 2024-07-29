@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 	<head>
@@ -55,21 +55,21 @@
 					onmouseout="document.benvenuti.src='common/template/img/home/blackink_OFF.jpg';"
 					/>
 				</a>
-				<a href="mod_gallery/mod_gallery.php" style="margin:0 -4px 0 -4px;">
+				<a href="mod_gallery/mod_gallery.php" style="margin:0 -2px 0 -4px;">
 					<img src="common/template/img/home/gallery_OFF.jpg" alt="Black ink Tatoo info"
 					name="gallery" 
 					onmouseover="document.gallery.src='common/template/img/home/gallery_ON.jpg';"
 					onmouseout="document.gallery.src='common/template/img/home/gallery_OFF.jpg';"
 					/>
 				</a>
-				<a href="mod_trovaci/mod_trovaci.php" style="margin:0 -4px 0 0;">
+				<a href="mod_trovaci/mod_trovaci.php" style="margin:0 -4px 0 -2px;">
 					<img src="common/template/img/home/dovesiamo_OFF.jpg" alt="Black ink Tatoo info"
 					name="dovesiamo" 
 					onmouseover="document.dovesiamo.src='common/template/img/home/dovesiamo_ON.jpg';"
 					onmouseout="document.dovesiamo.src='common/template/img/home/dovesiamo_OFF.jpg';"
 					/>
 				</a>
-				<a href="mod_contattaci/mod_contattaci.php">
+				<a href="mod_elettrodermografia/mod_elettrodermografia.php">
 					<img src="common/template/img/home/contattaci_OFF.jpg" alt="Black ink Tatoo info"
 					name="contatto" 
 					onmouseover="document.contatto.src='common/template/img/home/contattaci_ON.jpg';"
@@ -85,10 +85,10 @@
 			<br />
 
 			<p class="w_foot" style="margin-top:-40px; position:relative; z-index:-1;">
-			CREATED BY PIXOSYSTEMS.COM - P.IVA 11478481002 - DESIGNED BY ALBERTO MARA'	<br />
-			Property of BLACKINK/BLACKINK.COM/P.IVA 00112233445 & Pixosystem.com		<br />
+			CREATED BY PIXOSYSTEMS.COM || <a href="https://www.facebook.com/Amaraprofile">DESIGNED BY ALBERTO MARA'</a>	<br />
+			Proprietà di Black ink tattoo shop di Antonio Padula - P.IVA 04778350654		<br />
 			Copyright © 2011.- All right reserved
-			</p>
+		</p>
 			<a href="http://www.pixosystems.com/">
 			<img src="common/template/img/pixo_off.png" 
 			name="pixo" 
