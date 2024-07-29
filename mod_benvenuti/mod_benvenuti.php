@@ -14,7 +14,7 @@
 	<meta name="robots" content="index, follow" />
 	<meta name="robots" content="all">
 	<meta name="revisit-after" content="60 days">
-	<title>BLACK INK TATTOO</title>
+	<title>BLACK INK TATOO</title>
 
 				<!--ICON set-->
 				<link rel="icon" href="favicon.ico" type="image/x-icon"/>
@@ -48,10 +48,12 @@
 		<div id="corpo">
 			<div class="gabbia_benvenuti">
 				<p class="ww_georgia_bold" style="padding:178px 0 0 140px; position:relative;">
-				Disegni personalizzati							<br />
-				Elettrodermografia
-    <br/>															<br />
-				Autorizzato ASL							<br /><br /><br />
+				Realizzazione tatuaggi						<br />
+				Disegno su misura							<br />
+				Tatoo su richiesta							<br />
+															<br />
+				Altro:										<br />
+				Elettrodermografia							<br />
 															<br />				
 				<font style="margin-left:50px">Facebook:</font><br />	
 				<a href="https://www.facebook.com/profile.php?id=100001022084744" style="margin-left:50px; text-align:left;">	

@@ -13,7 +13,7 @@
 	<meta name="robots" content="index, follow" />
 	<meta name="robots" content="all">
 	<meta name="revisit-after" content="60 days">
-	<title>BLACK INK TATTOO</title>
+	<title>BLACK INK TATOO</title>
 
 				<!--ICON set-->
 				<link rel="icon" href="favicon.ico" type="image/x-icon"/>
@@ -33,21 +33,6 @@
 
 				<!--SCRIPT set-->
 				<!--no script-->
-                                <script type="text/javascript" src="../common/jquery-1.6.2.min.js"></script>
-        <script type="text/javascript">
-            function clear_text(obj_id, action, default_txt ){
-                if( action == 'focus'){
-                    if ( $('#'+obj_id).val() == default_txt ){
-                        $('#'+obj_id).val('');
-                    }
-                }
-                if( action == 'blur'){
-                    if ( $('#'+obj_id).val().length == 0 ){
-                        $('#'+obj_id).val(default_txt);
-                    }
-                }
-            }
-        </script>
 
 	</head>
 
@@ -62,8 +47,16 @@
 		<div id="corpo">
 			<div class="gabbia_contattaci">
 				
+				<p class="ww_georgia_bold" 				style="padding:40px 0 0 135px;">
+				Vieni a trovarci o  chiamaci:
+				</p>
+				<p class="ww_georgia" 				style="padding:10px 0 0 135px;">
+				Via tal dei tali					<br />
+				battipaglia (Salerno) 000000		<br />
+				tel: 000 - 0000000 fax: 000 - 000000
+				</p>
+				
 				<p class="ww_georgia_bold" 		style="padding:10px 0 0 135px;">
-                                    <br/><br/>
 				Inviaci una mail:
 				</p>
 				
@@ -71,8 +64,8 @@
 					<table border="0" cellspacing="0" cellpadding="0">
 								
 						<tr><td>
-                                                        <span><input type="text" class="nec" 	value="nome" id="_nome" name="_nome" onfocus="javascript: clear_text('_nome', 'focus', 'nome' );" onblur="javascript: clear_text('_nome', 'blur', 'nome' );" /></span><br />
-							<span><input type="text" class="mail" 	value="tuamail@server.it" id="_mail" name="_mail" onfocus="javascript: clear_text('_mail', 'focus', 'tuamail@server.it' );" onblur="javascript: clear_text('_mail', 'blur', 'tuamail@server.it' );" /></span><br />
+							<span><input type="text" class="nec" 	value="nome" name="_nome" /></span><br />
+							<span><input type="text" class="mail" 	value="tuamail@server.it" name="_mail" /></span><br />
 						</td></tr>
 																
 						<tr><td>
